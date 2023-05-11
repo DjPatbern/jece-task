@@ -12,7 +12,7 @@ const WelcomePage = () => {
     if (!auth) {
       navigate("/register/name");
     }
-  }); //LOGIC TO REDIRECT UNAUTHENTICATED USERS BACK TO THE REGISTRATION PAGE
+  },[]); //LOGIC TO REDIRECT UNAUTHENTICATED USERS BACK TO THE REGISTRATION PAGE
 
   useEffect(() => {
     const timeout = setTimeout(() => {

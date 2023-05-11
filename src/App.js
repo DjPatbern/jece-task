@@ -24,7 +24,7 @@ function App() {
     if (!auth) {
       navigate("/register/name");
     }
-  }); // LOGIC TO REDIRECT UNAUTHENTICATED USER'S BACK TO THE REGISTERATION PAGE
+  },[]); // LOGIC TO REDIRECT UNAUTHENTICATED USER'S BACK TO THE REGISTERATION PAGE
 
   return (
     <div className="App">
