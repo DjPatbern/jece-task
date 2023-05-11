@@ -32,7 +32,7 @@ const HomePage = () => {
                 for creating outstanding growth through innovations.
               </p>
               <Link to="/" className="repo-btn link">
-                Get Started ↟
+                Get Started
               </Link>
             </div>
             <div>

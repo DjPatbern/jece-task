@@ -76,29 +76,29 @@
 
 /* DARK & LIGHT MODE CSS */
 .dark {
-  background-color: rgb(11, 11, 122);
+  background-color: #010449;
   color: white;
 }
 .dark .dot {
-  color: rgba(202, 212, 212, 0.884);
+  color: #414575;
 }
 
 .dark a {
   color: white;
 }
 .dark .sidebar-icon {
-  background-color: rgb(198, 209, 209);
+  background-color: #414575;
   z-index: 9999;
 }
 
 .dark input {
-  background-color: rgb(11, 11, 122);
+  background-color: #010449;
   box-shadow: 1.5px 1.5px 1.5px rgb(72, 202, 241);
   color: white;
 }
 
 .dark .vl {
-  border-left: 1px solid rgba(141, 143, 143, 0.884);
+  border-left: 1px solid #414575;
 }
 
 .light .vl {
@@ -171,7 +171,7 @@
 }
 
 .inputReg-container input {
-  width: 80%;
+  width: 100%;
   border: 2px solid rgb(72, 202, 241);
   height: 45px;
   border-radius: 10px;
@@ -204,7 +204,7 @@
 
 /* WELCOME PAGE CSS */
 .welcome-container {
-  background-color: rgb(11, 11, 122);
+  background-color: #010449;
   width: 65%;
   margin-top: 7%;
   border-radius: 20px;
@@ -225,7 +225,7 @@
 
 nav {
   width: 96%;
-  background-color: rgb(11, 11, 122);
+  background-color: #010449;
   border-bottom: 1px solid aqua;
   padding: 0 2% 0 2%;
   display: flex;
@@ -241,10 +241,8 @@ nav {
   text-decoration: none;
 }
 .li:hover {
-  font-weight: bold;
-  background-color: aqua;
-  color: rgb(11, 11, 122);
-  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
 }
 
 .home-container {
@@ -253,7 +251,7 @@ nav {
   align-items: center;
   color: white;
   text-align: left;
-  background-color: rgb(11, 11, 122);
+  background-color: #010449;
 }
 
 .home-general {
@@ -263,7 +261,7 @@ nav {
 .home-flex {
   display: flex;
   margin-top: 10%;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .home-flex h1 {
@@ -273,7 +271,7 @@ nav {
   margin-bottom: 20px;
 }
 .home-flex h3 {
-  color: white;
+  color: aquamarine;
   margin-bottom: 10px;
 }
 
@@ -282,24 +280,14 @@ nav {
 }
 
 .repo-btn {
-  color: rgb(11, 11, 122);
+  color: #010449;
   background-color: aqua;
   margin-right: 20px;
 }
 
 .repo-btn:hover {
-  color: rgb(11, 11, 122);
-  background-color: rgb(124, 224, 41);
-}
-
-.git-btn {
+  color: #010449;
   background-color: white;
-  color: rgb(11, 11, 122);
-}
-
-.git-btn:hover {
-  color: rgb(11, 11, 122);
-  background-color: rgb(124, 224, 41);
 }
 .link {
   border-radius: 20px;
@@ -376,6 +364,7 @@ img.home-img {
   }
   .inputReg-container {
     width: 90%;
+    margin-right: 20px;
   }
 
   .inputReg-container .button {

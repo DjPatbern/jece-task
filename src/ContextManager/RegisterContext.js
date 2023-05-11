@@ -38,6 +38,7 @@ const RegisterDataSource = () => {
     setUser(newUser);
     setAuth(false);
     navigate("/register/name");
+    window.location.reload();
     toast.success("You are Logged Out now");
   }; //LOGIC TO LOG AN ALREADY SIGNED IN USER OUT OF THE WEBSITE
 
