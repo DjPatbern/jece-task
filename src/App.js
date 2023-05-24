@@ -15,6 +15,7 @@ import {
 } from "./ContextManager/RegisterContext";
 import HomePage from "./Pages/HomePage";
 import { useEffect } from "react";
+import SignUp from "./Pages/Signup";
 
 function App() {
   const { auth } = useRegisterContext(); //AUTH STATE IMPORTED FROM USECONTEXT STATE MANAGER
@@ -22,9 +23,9 @@ function App() {
 
   useEffect(() => {
     if (!auth) {
-      navigate("/register/name");
+      navigate("/signup");
     }
-  },[]); // LOGIC TO REDIRECT UNAUTHENTICATED USER'S BACK TO THE REGISTERATION PAGE
+  }, []); // LOGIC TO REDIRECT UNAUTHENTICATED USER'S BACK TO THE REGISTERATION PAGE
 
   return (
     <div className="App">
@@ -47,6 +48,7 @@ function App() {
               <Route path="country" element={<Country />} />
             </Route>
             <Route path="/welcome" element={<WelcomePage />} />
+            <Route path="/signup" element={<SignUp />} />
           </Routes>
         </main>
       </UseRegister>

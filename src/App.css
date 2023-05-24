@@ -15,6 +15,7 @@
   color: white;
 }
 
+
 /* COMPONENTS */
 
 /* SIDEBAR CSS */
@@ -370,6 +371,34 @@ img.home-img {
   .inputReg-container .button {
     float: none;
   }
+}
+
+/* CSS FOR SIGNUP COMPONENTS AND INPUTS */
+
+.signup-div {
+  background-color: #010449;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 50px 0px;
+  margin-top: 10%;
+}
+
+.signup-div input,
+.signup-div button {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: #888888 1px solid;
+  border-radius: 10px;
+  outline: none;
+}
+
+.signup-div button{
+  cursor: pointer;
 }
 
 /* CSS FOR TABLETS */
